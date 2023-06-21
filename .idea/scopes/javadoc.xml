@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="javadoc" pattern="!test:*..*&amp;&amp;!lib:*..*&amp;&amp;!src:*..*||src:Clases.Cochera.*||src:Clases.Sistema.*||src:Clases.Vehiculos.*||src:Clases.Comprobantes.*||src:Interfaces.*||src:Excepciones.*" />
+</component>
