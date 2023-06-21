@@ -35,7 +35,8 @@ public static void menuEpleado(Estacionamiento estacionamiento)  {
             "2)Salida de Vehiculo y Ticket"+"\n"+
             "3)Listado de Vehiculos estacionados"+"\n"+
             "4)Espacio disponibles"+"\n"+
-            "5)Menu Anterior"+"\n");
+            "5)Ver caja"+"\n"+
+            "6) Salir");
 
     int opcion=scanner.nextInt();
     ComprobanteEstacionamiento comprobanteAux = null;
@@ -166,7 +167,10 @@ public static void menuEpleado(Estacionamiento estacionamiento)  {
         case 5:
             System.out.println(estacionamiento.getCaja());
 
+            break;
 
+
+        case 6:
             break;
 
 
